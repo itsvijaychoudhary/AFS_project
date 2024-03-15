@@ -1,0 +1,89 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo h1 {
+  color: yellow;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#Link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 500ms ease-in-out;
+}
+
+#Link:hover {
+  color: rgb(74, 161, 7);
+}
+
+
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 300px;
+}
+
+#formbox {
+  border: 1px solid white;
+  margin-top: 20%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  border-radius: 30px;
+}
+
+#formbox button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  transition: 500ms ease-in-out;
+  cursor: pointer;
+}
+
+#formbox button:hover {
+  background-color: yellow;
+  box-shadow: yellow;
+  color: green;
+}
+
+form label {
+  font-size: 25px;
+  color: white;
+}
+
+form input {
+  height: 30px;
+  font-size: 20px;
+}
+
+#reg p {
+  color: white;
+}
+
+#reg p a {
+  text-decoration: none;
+  color: white;
+  transition: 400ms ease-in;
+}
+
+#reg p a:hover {
+  color: green;
+}

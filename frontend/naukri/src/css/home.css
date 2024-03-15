@@ -1,0 +1,36 @@
+body{
+  background-image: url("background.jpg");
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: yellow;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#Link {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 500ms ease-in-out;
+}
+
+#Link:hover {
+  color: purple;
+}
+
+
+h1 {
+  text-align: center;
+}
